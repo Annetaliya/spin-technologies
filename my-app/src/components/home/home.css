@@ -4,3 +4,8 @@
 .listDisplay {
     list-style: none;
 }
+body {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0.5rem 1rem;
+}
