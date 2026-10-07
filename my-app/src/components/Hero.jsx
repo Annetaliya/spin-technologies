@@ -5,12 +5,13 @@ const Hero = () => {
   return (
     <div className='bg-[url(./assets/techbg.jpg)] h-max p-4 rounded-lg'>
         <Nav />
-        <div className='ml-24 mt-24'>
+        <div className='ml-24 mt-32
+        '>
             <p className='text-white text-sm/6'><span className='text-amber-600'>Spin</span> Technologies</p>
-            <p className='text-6xl text-white font-medium font-Roboto pb-2 pt-4'>Spin Technologies</p>
+            <p className='md:text-6xl text-white font-medium font-Roboto pb-2 pt-4'>Spin Technologies</p>
             <p className='text-5xl text-white font-medium font-Roboto pb-2'>Design Agency</p>
             <p className='text-5xl text-white font-medium font-Roboto'>For growing Brands</p>
-            <div className='flex justify-end'>
+            <div className='sm:flex justify-end'>
                 <div className='flex flex-col pt-4'>
                     <p className='text-white font-medium font-Roboto pb-2'>Web design</p>
                     <p className='text-white'>Branding and logo design</p>
