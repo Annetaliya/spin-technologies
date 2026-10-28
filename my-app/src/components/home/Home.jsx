@@ -8,6 +8,24 @@ const Home = () => {
     <div>
       {/* <Nav /> */}
       <Hero />
+      <div className='flex justify-around align-middle mt-6'>
+        <div className='flex-col pt-2 pb-2 pr-6 bg-amber-50 rounded-sm'>
+          <p className='text-blue-600 text-3xl'>100%</p>
+          <p className='text-4xl'>Bespoke product</p>
+        </div> 
+        <div className='bg-amber-50 pt-2 pb-2 pr-6 rounded-sm'>
+          <p className='text-3xl text-blue-600' >100%</p>
+          <p className='text-3xl'>Client Satisfaction</p>
+        </div>
+        <div className='bg-amber-50 pt-4 pb-4 pr-8  pl-2 rounded-sm'>
+          <p className='text-3xl text-blue-600'>24hrs</p>
+          <p className='text-3xl'>Support</p>
+        </div>
+        <div className='bg-amber-50 pt-2 pb-2 pr-6 rounded-sm'>
+          <p className='text-3xl text-blue-600'>Easy handover</p>
+          <p className='text-3xl'>& client Empowerment</p>
+        </div>
+      </div>
       <div className='mt-24 ml-4'>
         <div className='flex gap-4 items-center'>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-amber-600 font-bold" viewBox="0 0 16 16">
